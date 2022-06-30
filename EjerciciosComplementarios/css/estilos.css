@@ -1,0 +1,36 @@
+table{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+table, th, td{
+    border: 1px solid #333;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+
+/*Renglones pares de la tabla*/
+tr:nth-child(even){
+    background-color: #FFFFCC;
+    }
+    /*Renglones impres de la tabla*/
+    tr:nth-child(odd){
+        background-color: #fff;
+    }
+    
+.productos{
+    background:gray;
+}
+
+.valores{
+    color:  #7883bb;
+}
+
+.rows :hover{
+    background-color: #FFFF66;
+}
+
+
+
+

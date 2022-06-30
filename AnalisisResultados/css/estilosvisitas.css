@@ -1,0 +1,14 @@
+article div{
+    display: inline-block;
+}
+#apellidos{
+    margin-top: 10px;
+    width: 200px;
+}
+#nombre{
+    width: 100px;
+}
+
+#pseudonimo{
+    width: 100px;   
+}

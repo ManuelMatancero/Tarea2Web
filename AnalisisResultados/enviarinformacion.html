@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <form
+    action='mailto:sarante4@gmail.com'
+    method='POST'
+    enctype='text/plain'
+    name='EmailForm'>
+        <fieldset>
+            <legend>Enviar informacion a su correo electronico</legend>
+            <div><label for="nombre">Escribe tu nombre:</label>
+                <input type="text" id="nombre" name="nombre"/><br>
+            </div>
+            
+    
+            <div>
+                <label for="password">Introduce tu contraseña:</label>
+                <input type="password" id="password" name="contrasena"><br>
+            </div>
+         
+    <div>
+        <label for="foto">Enviame una foto tuya:</label>
+        <input type="text" id="foto" name="foto"/>
+        <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*" name="enviarfoto" /><br>
+    </div>
+           
+    <div>
+        <label for="rate">Este manual te parece:</label><br>
+        <input type="radio" id="muybueno" name="rate" value="Muy Bueno">
+        <label for="muybueno">Muy bueno</label><br>
+        <input type="radio" id="bueno" name="rate" value="Bueno">
+        <label for="bueno">Bueno</label><br>
+        <input type="radio" id="malo" name="rate" value="Malo">
+        <label for="malo">Malo</label><br>
+        <input type="radio" id="muymalo" name="rate" value="Muy malo">
+        <label for="muymalo">Muy malo</label><br/><br/>
+
+    </div>
+      
+            <input type="checkbox" id="aviso" name="actualizaciones" value="Avisame de actualizaciones">
+            <label for="aviso">Avisarme de actualizaciones</label><br/><br/>
+            
+            <input type="submit" id="enviar" value="Enviar">
+            <input type="reset" value="Borrar">
+        </fieldset>
+    </form>
+
+</body>
+</html>
